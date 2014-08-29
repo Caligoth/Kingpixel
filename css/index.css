@@ -1,0 +1,178 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color:#202020;
+	text-align: center;
+	margin: 0 0;
+}
+
+header{
+	background-image: url('../img/bg-header.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-color: #2569aa;
+	height: 458px;
+	width: auto;
+}
+
+header p{
+	font-weight: 300;
+}
+
+header p, form p{
+	color:#ffffff;
+}
+
+form p{
+	font-weight: 500;
+}
+
+input{
+	border:#ffffff 1px solid;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+form button[type=submit]{
+	background-color:#338ce7;
+	border: #ffffff 1px solid;
+	border-radius: 5px;
+	color: #ffffff;
+	font-weight: 300;
+	vertical-align: middle;
+	text-align: center;
+	height: 45px;
+	width: 130px;
+	margin: 20px;
+	padding: 10px;
+}
+
+form button[type=submit]:hover{
+	background-color:#1c6dbf;
+}
+
+.center{
+	padding-top: 50px;
+	width:1000px;
+	margin:0 auto;
+}
+
+.center > *{
+	display:inline-block;
+}
+
+#presentation{
+	width:418px;
+	margin: 0 auto;
+}
+
+/*BANDEAU AIDE*/
+
+#aide{
+	background-color: #eaeff4;
+	height: 110px;
+}
+
+#aide h3{
+	margin: 0px;
+	padding: 10px 0px 20px 0px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+#aide a{
+	background-color:transparent;
+	border:#338ce7 1px solid;
+	border-radius: 5px;
+	font-weight: 300;
+	vertical-align: middle;
+	text-align: center;
+	height: 45px;
+	width: 130px;
+	margin: 20px;
+	padding: 10px;
+	color: #338ce7;
+	text-decoration: none;
+}
+
+#aide a:hover{
+	background-color:#338ce7;
+	border: #ffffff 1px solid;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+/*Partie 2*/
+#part2{
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0px;
+	width: 800px;
+	font-weight: 300;
+}
+
+#part2>img{
+	padding-left: 90px;
+
+}
+
+#etape{
+	width: 460px;
+	text-align: left;
+	float: left;
+	display:inline;
+}
+
+.point{
+	padding: 50px 0px;
+}
+
+.point img{
+	float:left;
+	margin-right: 20px;
+}
+
+.point p{
+	margin:0;
+}
+
+/*Partie 3*/
+
+#part3{
+	padding: 20px 0px;
+}
+
+.perso{
+	width:245px;
+	display:inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 300;
+	padding: 0 20px;
+}
+
+/*Footer*/
+
+footer{
+	background-color: #eaeff4;
+	height: 103px;
+	padding: 10px 0 0 0;
+}
+
+footer>p{
+	font-style: italic;
+}
+
+footer img, footer span{
+	vertical-align: middle;
+}
+
+#reseaux{
+	margin-bottom: 15px;
+}
+
+#reseaux p{
+	text-transform: uppercase;
+	margin: 0px 0px 5px 0px;
+}
